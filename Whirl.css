@@ -1,0 +1,136 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.center {
+  padding-left: calc(50% - 615px);
+  padding-right: calc(50% - 615px);
+}
+
+.header {
+  padding-top: 20px;
+}
+.header__top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__top-left {
+  gap: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.header__nav {
+  display: flex;
+  gap: 15px;
+}
+.header__nav-link {
+  color: rgb(51, 56, 63);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  text-align: left;
+}
+.header__sign {
+  color: rgb(0, 112, 160);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  text-align: left;
+}
+.header__demo-button {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  box-sizing: border-box;
+  border: 1px solid;
+  background: rgb(0, 112, 160);
+  width: 139px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__demo-button:hover {
+  cursor: pointer;
+}
+.header__top-right {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.header__button-link:hover {
+  cursor: pointer;
+}
+.header__main {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+.header__title {
+  color: rgb(31, 31, 31);
+  font-family: Fraunces;
+  font-size: 58px;
+  font-weight: 400;
+  line-height: 63.8px;
+  letter-spacing: 0.2px;
+  text-align: left;
+}
+.header__description {
+  color: rgb(31, 31, 31);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  text-align: left;
+}
+.header__main-left {
+  width: 525px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.header__main-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+.header__learn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.header__company {
+  padding-top: 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}/*# sourceMappingURL=Whirl.css.map */
