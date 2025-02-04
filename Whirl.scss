@@ -5,7 +5,7 @@
 a{
     text-decoration: none;
   }
-  body{
+body{
     font-family: "Inter", sans-serif;
 }
 .center{
@@ -132,7 +132,397 @@ a{
         flex-direction: column;
         gap: 20px;
     }
-    &__titles{
+    &__company-titles{
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center
+    }
+    &__list-companies{
+        color: rgb(31, 31, 31);
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 37.5px;
+        letter-spacing: 0.2px;
+        text-align: center;
+    }
+    &__company-img{
+        transform: scale(0.8);
+    }
+
+
+
+    &__cards{
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        padding-bottom: 100px;
+        padding-top: 50px;
+        justify-content: space-between;
+    }
+    &__card{
+        box-sizing: border-box;
+        border: 0px solid;
+        width: 355px;
+        height: 250px;
+        &_1{
+            background: rgb(250, 234, 115);
+        }
+        &_2{
+            background: rgb(204, 239, 246);
+        }
+        &_3{
+            background: rgb(247, 206, 220);
+        }
+    }
+    &__card-title{
+        color: rgb(31, 31, 31);
+        font-family: Fraunces;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 31.25px;
+        letter-spacing: 0.2px;
+        text-align: left;
+    }
+    &__card-descr{
+        color: rgb(31, 31, 31);
+        font-family: Inter;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        text-align: left;
+    }
+    &__card-content{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding: 32px;
+    }
+    &__card-logo{
+        width: 55px;
+        height: 55px;
+    }
+}
+
+.techno{
+    display: flex;
+    flex-direction: row;
+    background: rgb(247, 249, 250);
+    gap: 75px;
+    padding-bottom: 50px;
+    &__title{
+        color: rgb(31, 31, 31);
+        font-family: Fraunces;
+        font-size: 42px;
+        font-weight: 400;
+        line-height: 50.4px;
+        letter-spacing: 0.2px;
+        text-align: left;
+    }
+    &__list{
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    &__left{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+    &__list-title{
+        box-sizing: border-box;
+        border-top: 1px solid rgb(194, 205, 216);;
+        display: flex;
+        flex-direction: column;
+        height: 64px;
+    }
+    &__list-main{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 18px;
+        padding-left: 16px;
+        align-items: center;
+    }
+    &__list-logo{
+        width: 23.83px;
+        height: 18.95px;
+    }
+    &__list-name{
+        color: rgb(31, 31, 31);
+        font-family: Fraunces;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 25.2px;
+        letter-spacing: 0.2px;
+        text-align: left;
+        margin-left: -190px;
+        &_1{
+            margin-left: -150px;
+        }
+        &_4{
+            margin-left: -179px;
+        }
+    }
+    &__list-vector{
+        width: 14.57px;
+        height: 7.08px;
+        padding-left: 50px;
+    }
+    &__list-descr{
+        color: rgb(31, 31, 31);
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        text-align: left;
+        display: none;
+    }
+    &__main-img{
+        width: 481px;
+        height: 479px;
+        background: rgb(247, 249, 250);
+    }
+}
+
+
+.about{
+    height: 458px;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    &__title{
+        padding-top: 150px;
+    }
+    &__cards{
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+        padding-top: 168px;
+    }
+    &__card{
+        height: 218px;
+        display: flex;
+        flex-direction: column;
+        max-width: 222.66px;
+        gap: 15px;
+        &_1{
+            margin-top: 68px;
+        }
+    }
+    &__card-title{
+        color: rgb(31, 31, 31);
+        font-family: Fraunces;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 31.25px;
+        letter-spacing: 0.2px;
+        text-align: left;
+    }
+    &__card-descr{
+        color: rgb(31, 31, 31);
+        font-family: Inter;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        text-align: left;
+    }
+    &__card-logo{
+        height: 55px;
+        width: 55px;
+    }
+}
+
+
+.Set{
+    background: rgb(0, 112, 160);
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    &__main-img{
+        width: 382px;
+        height: 374px;
+    }
+    &__content{
+        max-width: 501px;
+        display: flex;
+        flex-direction: column;
+    }
+    &__title{
+        color: rgb(255, 255, 255);
+        font-family: Fraunces;
+        font-size: 42px;
+        font-weight: 400;
+        line-height: 50.4px;
+        letter-spacing: 0.2px;
+        text-align: left;
+        padding-bottom: 21px;
+    }
+    &__descr{
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0.2px;
+        text-align: left;
+        padding-bottom: 17px;
+    }
+    &__check{
+        width: 17px;
+        height: 10px;
+    }
+    &__list-name{
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21.6px;
+        letter-spacing: 0.2px;
+        text-align: left;
+    }
+    &__list{
+        display: flex;
+        flex-direction: row;
+        gap: 9px;
+        padding-bottom: 7px;
+        align-items: center;
+    }
+    &__button{
+        padding-top: 27px;
+    }
+    &__demo-button{
+        color: rgb(255, 255, 255);
+        border: 1px solid rgb(0, 112, 160);
+    }
+}
+
+
+.tasks{
+   height: 648px; 
+   &__descr{
+        color: rgb(31, 31, 31);
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0.2px;
+        text-align: left;
+   }
+   &__cards{
+        padding-top: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+   }
+   &__title{
+        padding-top: 100px;
+   }
+   &__descr{
+    padding-top: 20px;
+   }
+   &__title{
+    
+   }
+   &__title{
+    
+   }
+   &__title{
+    
+   }
+}
+
+.blog{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 747px;
+    background: rgb(247, 249, 250);
+    &__top{
+       padding-top: 79px; 
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       align-items: center;
+    }
+    &__cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__card{
+        width: 355px;
+        height: 487px;
+        display: flex;
+        flex-direction: column;
+        background: white;
+    }
+    &__card-img{
+        width: 355px;
+        height: 238px;
+    }
+    &__card-bottom{
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+    }
+    &__category{
+        color: rgb(44, 144, 201);
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0.4px;
+        text-align: center;
+        box-sizing: border-box;
+        background: rgb(230, 247, 255);
+        width: 122px;
+        height: 22px;
+        border: 1px solid rgb(230, 247, 255);
+    }
+    &__card-title{
+        color: rgb(31, 31, 31);
+        font-family: Fraunces;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 31.25px;
+        letter-spacing: 0.2px;
+        text-align: left;
+    }
+    &__card-descr{
+        color: rgb(31, 31, 31);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19.6px;
+        letter-spacing: 0.2px;
+        text-align: left;
+    }
+    &__card-date{
+        color: rgb(31, 31, 31);
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 19.6px;
+        letter-spacing: 0.2px;
+        text-align: left;
+    }
+    &__top{
         
     }
+
 }
