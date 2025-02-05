@@ -12,12 +12,13 @@ body {
 }
 
 .center {
-  padding-left: calc(50% - 615px);
-  padding-right: calc(50% - 615px);
+  padding-left: calc(50% - 558px);
+  padding-right: calc(50% - 570px);
 }
 
 .header {
-  padding-top: 20px;
+  padding-bottom: 19px;
+  padding-top: 18px;
 }
 .header__top {
   display: flex;
@@ -26,7 +27,7 @@ body {
   justify-content: space-between;
 }
 .header__top-left {
-  gap: 50px;
+  gap: 37px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -34,7 +35,7 @@ body {
 }
 .header__nav {
   display: flex;
-  gap: 15px;
+  gap: 30px;
 }
 .header__nav-link {
   color: rgb(51, 56, 63);
@@ -48,7 +49,7 @@ body {
 .header__sign {
   color: rgb(0, 112, 160);
   font-family: Inter;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.2px;
@@ -57,16 +58,16 @@ body {
 .header__demo-button {
   color: rgb(255, 255, 255);
   font-family: Inter;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0.2px;
+  letter-spacing: 1.2px;
   text-align: left;
   box-sizing: border-box;
   border: 1px solid;
   background: rgb(0, 112, 160);
-  width: 139px;
-  height: 36px;
+  width: 142px;
+  height: 39px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -74,19 +75,24 @@ body {
 .header__demo-button:hover {
   cursor: pointer;
 }
+.header__demo-button_mid {
+  width: 176px;
+  height: 45px;
+  font-size: 16px;
+}
 .header__top-right {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 28px;
 }
 .header__button-link:hover {
   cursor: pointer;
 }
 .header__main {
-  padding-top: 100px;
+  padding-top: 89px;
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
@@ -94,64 +100,71 @@ body {
 .header__title {
   color: rgb(31, 31, 31);
   font-family: Fraunces;
-  font-size: 58px;
+  font-size: 68px;
   font-weight: 400;
   line-height: 63.8px;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.05px;
   text-align: left;
 }
 .header__description {
+  margin-bottom: -2px;
+  margin-top: -8px;
   color: rgb(31, 31, 31);
   font-family: Inter;
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 400;
   line-height: 30px;
-  letter-spacing: 0.2px;
+  letter-spacing: 1.2px;
   text-align: left;
 }
 .header__main-left {
   width: 525px;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 31px;
+  margin-top: 50px;
 }
 .header__main-nav {
+  margin-bottom: 10px;
+  margin-left: -1px;
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 30px;
 }
 .header__learn {
+  margin-left: -5px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 20px;
+  gap: 9px;
 }
 .header__company {
-  padding-top: 100px;
+  padding-top: 130px;
   text-align: center;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 .header__company-titles {
+  padding-top: 4px;
   text-align: center;
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 62px;
   justify-content: center;
 }
 .header__list-companies {
   color: rgb(31, 31, 31);
   font-family: Inter;
-  font-size: 24px;
+  font-size: 25px;
   font-weight: 400;
   line-height: 37.5px;
   letter-spacing: 0.2px;
   text-align: center;
 }
 .header__company-img {
-  transform: scale(0.8);
+  transform: scale(1);
 }
 .header__cards {
   text-align: center;
@@ -159,7 +172,7 @@ body {
   flex-direction: row;
   gap: 20px;
   padding-bottom: 100px;
-  padding-top: 50px;
+  padding-top: 157px;
   justify-content: space-between;
 }
 .header__card {
@@ -180,16 +193,16 @@ body {
 .header__card-title {
   color: rgb(31, 31, 31);
   font-family: Fraunces;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 400;
-  line-height: 31.25px;
+  line-height: 34.25px;
   letter-spacing: 0.2px;
   text-align: left;
 }
 .header__card-descr {
   color: rgb(31, 31, 31);
   font-family: Inter;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.2px;
@@ -198,31 +211,59 @@ body {
 .header__card-content {
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  padding: 32px;
+  gap: 10px;
+  padding: 33px;
 }
 .header__card-logo {
   width: 55px;
   height: 55px;
+}
+.header__card-logo_1 {
+  width: 54px;
+  height: 51px;
+}
+.header__card-logo_2 {
+  padding-top: 17px;
+  width: 56px;
+  height: 16px;
+  padding-bottom: 17px;
+}
+.header__card-logo_3 {
+  padding-top: 11px;
+  width: 56px;
+  height: 31px;
+  padding-bottom: 10px;
 }
 
 .techno {
   display: flex;
   flex-direction: row;
   background: rgb(247, 249, 250);
-  gap: 75px;
+  gap: 11px;
   padding-bottom: 50px;
 }
 .techno__title {
+  padding-top: 79px;
   color: rgb(31, 31, 31);
   font-family: Fraunces;
-  font-size: 42px;
+  font-size: 49px;
   font-weight: 400;
-  line-height: 50.4px;
-  letter-spacing: 0.2px;
+  line-height: 49.4px;
+  letter-spacing: 1.2px;
+  text-align: left;
+}
+.techno__title_1 {
+  margin-top: -58px;
+  color: rgb(31, 31, 31);
+  font-family: Fraunces;
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 49.4px;
+  letter-spacing: 1.2px;
   text-align: left;
 }
 .techno__list {
+  margin-top: 7px;
   width: 450px;
   display: flex;
   flex-direction: column;
@@ -255,15 +296,15 @@ body {
 .techno__list-name {
   color: rgb(31, 31, 31);
   font-family: Fraunces;
-  font-size: 21px;
+  font-size: 19px;
   font-weight: 400;
-  line-height: 25.2px;
-  letter-spacing: 0.2px;
+  line-height: 15.2px;
+  letter-spacing: 3.2px;
   text-align: left;
   margin-left: -190px;
 }
 .techno__list-name_1 {
-  margin-left: -150px;
+  margin-left: -95px;
 }
 .techno__list-name_4 {
   margin-left: -179px;
@@ -284,6 +325,8 @@ body {
   display: none;
 }
 .techno__main-img {
+  margin-top: 175px;
+  margin-left: -11px;
   width: 481px;
   height: 479px;
   background: rgb(247, 249, 250);
@@ -478,6 +521,10 @@ body {
   width: 122px;
   height: 22px;
   border: 1px solid rgb(230, 247, 255);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .blog__card-title {
   color: rgb(31, 31, 31);
@@ -505,4 +552,195 @@ body {
   line-height: 19.6px;
   letter-spacing: 0.2px;
   text-align: left;
+  margin-top: 20px;
+}
+
+.start {
+  height: 530px;
+}
+.start__field {
+  margin-top: 90px;
+  height: 370px;
+  box-sizing: border-box;
+  border: 1px solid white;
+  background: rgb(230, 247, 255);
+}
+.start__content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px;
+}
+.start__descr {
+  color: rgb(31, 31, 31);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+  text-align: left;
+}
+.start__checks {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.start__check-object {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+}
+.start__check-sign {
+  width: 13px;
+  height: 7px;
+}
+.start__check-descr {
+  color: rgb(98, 106, 114);
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.2px;
+  text-align: left;
+}
+
+.footer__top {
+  height: 328px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.footer__top-left {
+  display: flex;
+  flex-direction: column;
+}
+.footer__logo {
+  padding-bottom: 20px;
+}
+.footer__author {
+  color: rgb(31, 31, 31);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 0.2px;
+  text-align: left;
+}
+.footer__author-link {
+  color: rgb(0, 112, 160);
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 0.2px;
+  text-align: left;
+}
+.footer__top-right {
+  display: flex;
+  flex-direction: row;
+  gap: 189px;
+}
+.footer__links-list {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.footer__list-name {
+  color: rgb(31, 31, 31);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  text-align: left;
+}
+.footer__link {
+  color: rgb(98, 106, 114);
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  text-align: left;
+}
+.footer__sign-up {
+  max-width: 217px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.footer__sign-descr {
+  color: rgb(31, 31, 31);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  text-align: left;
+}
+.footer__email-form {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+}
+.footer__email-input {
+  border: none;
+  border-bottom: 1px solid rgb(194, 205, 216);
+  letter-spacing: 0%;
+  text-align: left;
+  width: 216px;
+  height: 44px;
+  background-color: transparent;
+  padding-left: 15px;
+}
+.footer__email-input::-moz-placeholder {
+  color: rgb(98, 106, 114);
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  text-align: left;
+}
+.footer__email-input::placeholder {
+  color: rgb(98, 106, 114);
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  text-align: left;
+}
+.footer__email-arrow {
+  width: 5.82px;
+  height: 13.67px;
+}
+.footer__bottom {
+  height: 70px;
+  border-top: 1px solid rgb(222, 229, 235);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__rights {
+  color: rgb(31, 31, 31);
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 0.2px;
+  text-align: left;
+}
+.footer__social {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.footer__social-logo {
+  width: 21.36px;
+  height: 21.01px;
 }/*# sourceMappingURL=Whirl.css.map */
