@@ -247,7 +247,7 @@ body{
     flex-direction: row;
     background: rgb(247, 249, 250);
     gap: 11px;
-    padding-bottom: 50px;
+    padding-bottom: 41px;
     &__title{
         padding-top: 79px;
         color: rgb(31, 31, 31);
@@ -347,13 +347,14 @@ body{
 
     justify-content: space-between;
     &__title{
-        padding-top: 150px;
+        padding-top: 121px;
+        font-size: 48px
     }
     &__cards{
         display: flex;
         flex-direction: row;
         gap: 32px;
-        padding-top: 168px;
+        padding-top: 115px;
     }
     &__card{
         height: 218px;
@@ -361,14 +362,18 @@ body{
         flex-direction: column;
         max-width: 222.66px;
         gap: 15px;
+        margin-top: 12px;
         &_1{
             margin-top: 68px;
+        }
+        &_3{
+            max-width: 221.66px;
         }
     }
     &__card-title{
         color: rgb(31, 31, 31);
         font-family: Fraunces;
-        font-size: 25px;
+        font-size: 31px;
         font-weight: 400;
         line-height: 31.25px;
         letter-spacing: 0.2px;
@@ -377,15 +382,18 @@ body{
     &__card-descr{
         color: rgb(31, 31, 31);
         font-family: Inter;
-        font-size: 15px;
+        font-size: 16px;
         font-weight: 400;
         line-height: 24px;
         letter-spacing: 0.2px;
         text-align: left;
+        &_1{
+            font-size: 17px;
+        }
     }
     &__card-logo{
-        height: 55px;
-        width: 55px;
+        height: 43px;
+        width: 52px;
     }
 }
 
@@ -397,36 +405,46 @@ body{
     flex-direction: row;
     text-align: center;
     justify-content: center;
-    align-items: center;
-    justify-content: space-between;
+    gap: 189px;
+    &__center{
+        padding-left: calc(50% - 501px);
+        padding-right: calc(50% - 627px);
+    }
+
     &__main-img{
+        margin-top: 80px;
         width: 382px;
         height: 374px;
     }
     &__content{
-        max-width: 501px;
+        margin-top: -13px;
+        width: 100%;
+        max-width: 597px;
         display: flex;
         flex-direction: column;
     }
     &__title{
         color: rgb(255, 255, 255);
         font-family: Fraunces;
-        font-size: 42px;
+        font-size: 44px;
         font-weight: 400;
         line-height: 50.4px;
-        letter-spacing: 0.2px;
+        letter-spacing: 2.7px;
         text-align: left;
-        padding-bottom: 21px;
+        padding-bottom: 23px;
+        &_1{
+            padding-top: 92px;
+        }
     }
     &__descr{
         color: rgb(255, 255, 255);
         font-family: Inter;
-        font-size: 18px;
+        font-size: 19px;
         font-weight: 400;
         line-height: 27px;
-        letter-spacing: 0.2px;
+        letter-spacing: 0.3px;
         text-align: left;
-        padding-bottom: 17px;
+        padding-bottom: 24px;
     }
     &__check{
         width: 17px;
@@ -435,11 +453,20 @@ body{
     &__list-name{
         color: rgb(255, 255, 255);
         font-family: Inter;
-        font-size: 16px;
+        font-size: 17px;
         font-weight: 400;
         line-height: 21.6px;
         letter-spacing: 0.2px;
         text-align: left;
+        &_2{
+            letter-spacing: 0.6px;
+        }
+    }
+    &__lists{
+       margin-top: -5px;
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
     }
     &__list{
         display: flex;
@@ -449,9 +476,13 @@ body{
         align-items: center;
     }
     &__button{
-        padding-top: 27px;
+        padding-left: 17px;
+        padding-top: 24px;
     }
     &__demo-button{
+        font-size: 16px;
+        line-height: 29px;
+        letter-spacing: 1.1px;
         color: rgb(255, 255, 255);
         border: 1px solid rgb(0, 112, 160);
     }
@@ -466,8 +497,9 @@ body{
         font-size: 18px;
         font-weight: 400;
         line-height: 27px;
-        letter-spacing: 0.2px;
+        letter-spacing: 0.8px;
         text-align: left;
+        padding-top: 20px;
    }
    &__cards{
         padding-top: 60px;
@@ -476,19 +508,25 @@ body{
         justify-content: space-between;
    }
    &__title{
-        padding-top: 100px;
+        font-size: 48px;
+        line-height: 51.4px;
+        letter-spacing: 1.3px;
+        padding-top: 119px;
    }
-   &__descr{
-    padding-top: 20px;
+   &__card{
+    max-width: 234.66px;
    }
-   &__title{
-    
-   }
-   &__title{
-    
-   }
-   &__title{
-    
+   &__card-descr{
+    line-height: 22px;
+    letter-spacing: 0.7px;
+    &_1{
+        line-height: 23px;
+        letter-spacing: 0.2px;
+    }
+    &_2{
+        line-height: 23px;
+        letter-spacing: -0.3px;
+    }
    }
 }
 
@@ -496,15 +534,22 @@ body{
 .blog{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 51px;
     height: 747px;
     background: rgb(247, 249, 250);
+    &__title{
+        padding-top: 0px;
+        letter-spacing: 0.8px;
+    }
     &__top{
-       padding-top: 79px; 
+       padding-top: 79px;
+       gap: 476px;
        display: flex;
-       flex-direction: row;
-       justify-content: space-between;
-       align-items: center;
+       flex-direction: row; 
+    }
+    &__Posts{
+        padding-top: 16px;
+        letter-spacing: 0.6px;
     }
     &__cards{
         display: flex;
@@ -527,7 +572,10 @@ body{
         padding: 24px;
         display: flex;
         flex-direction: column;
-        gap: 7px;
+        gap: 12px;
+        &_3{
+            gap: 11px;
+        }
     }
     &__category{
         color: rgb(44, 144, 201);
@@ -546,6 +594,14 @@ body{
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        &_2{
+            width: 111px;
+            height: 23px;
+        }
+        &_3{
+            width: 61px;
+            height: 24px;
+        }
     }
     &__card-title{
         color: rgb(31, 31, 31);
@@ -553,8 +609,12 @@ body{
         font-size: 25px;
         font-weight: 400;
         line-height: 31.25px;
-        letter-spacing: 0.2px;
+        letter-spacing: 2.5px;
         text-align: left;
+        &_3{
+            font-size: 26px;
+            letter-spacing: 1.6px;
+        }
     }
     &__card-descr{
         color: rgb(31, 31, 31);
@@ -562,7 +622,7 @@ body{
         font-size: 14px;
         font-weight: 400;
         line-height: 19.6px;
-        letter-spacing: 0.2px;
+        letter-spacing: 0.6px;
         text-align: left;
     }
     &__card-date{
@@ -571,46 +631,55 @@ body{
         font-size: 12px;
         font-weight: 400;
         line-height: 19.6px;
-        letter-spacing: 0.2px;
+        letter-spacing: 0.6px;
         text-align: left;
-        margin-top: 20px;
     }
 }
 
 
 .start{
     height: 530px;
+    &__center{
+        padding-left: calc(50% - 560px);
+        padding-right: calc(50% - 572px);
+    }
     &__field{
-        margin-top: 90px;
-        height: 370px;
+        margin-top: 79px;
+        height: 372px;
         box-sizing: border-box;
         border: 1px solid white;
         background: rgb(230, 247, 255);
     }
     &__content{
+        margin-top: -15px;
         display: flex;
         flex-direction: column;
         gap: 20px;
-        padding: 50px;
+        padding-left: 57px;
+    }
+    &__title{
+        letter-spacing: 1.1px;
+        font-size: 48.6px;
     }
     &__descr{
         color: rgb(31, 31, 31);
         font-family: Inter;
-        font-size: 18px;
+        font-size: 19.1px;;
         font-weight: 400;
         line-height: 27px;
-        letter-spacing: 0.2px;
+        letter-spacing: 0.3px;
         text-align: left;
     }
     &__checks{
+        padding-left: 3px;
         display: flex;
         flex-direction: row;
-        gap: 25px;
+        gap: 37px;
     }
     &__check-object{
         display: flex;
         flex-direction: row;
-        gap: 4px;
+        gap: 5px;
         align-items: center;
     }
     &__check-sign{
@@ -623,25 +692,37 @@ body{
         font-size: 13px;
         font-weight: 400;
         line-height: 21px;
-        letter-spacing: 0.2px;
+        letter-spacing: 0.6px;
         text-align: left;
+    }
+    &__button{
+        padding-top: 14px
+    }
+    &__demo-button{
+        width: 176px;
+        height: 44px;
     }
 }
 
 
 .footer{
+    margin-top: -32px;
+    &__center{
+        padding-right: calc(50% - 571px)
+    }
     &__top{
-        height: 328px;
+        height: 280px;
         display: flex;
         flex-direction: row;
         align-items: flex-start;
-        justify-content: space-between;
+        gap: 316px;
     }
     &__top-left{
         display: flex;
         flex-direction: column;
     }
     &__logo{
+        width: 134px;
         padding-bottom: 20px;
     }
     &__author{
@@ -665,12 +746,13 @@ body{
     &__top-right{
         display: flex;
         flex-direction: row;
-        gap: 189px;
+        gap: 102px;
     }
     &__links-list{
         display: flex;
         flex-direction: column;
-        gap: 7px;
+        gap: 15px;
+        width: 129px;
     }
     &__list-name{
         color: rgb(31, 31, 31);
@@ -686,15 +768,15 @@ body{
         font-family: Inter;
         font-size: 13px;
         font-weight: 400;
-        line-height: 20px;
-        letter-spacing: 0.2px;
+        line-height: 16px;
+        letter-spacing: 0.8px;
         text-align: left;
     }
     &__sign-up{
         max-width: 217px;
         display: flex;
         flex-direction: column;
-        gap: 8px;
+        gap: 17px;
     }
     &__sign-descr{
         color: rgb(31, 31, 31);
@@ -702,7 +784,7 @@ body{
         font-size: 16px;
         font-weight: 400;
         line-height: 24px;
-        letter-spacing: 0.2px;
+        letter-spacing: 0.8px;
         text-align: left;
     }
     &__email-form{
@@ -717,7 +799,7 @@ body{
         letter-spacing: 0%;
         text-align: left;
         width: 216px;
-        height: 44px;
+        height: 39px;
         background-color: transparent;
         padding-left: 15px;
     }
@@ -726,8 +808,8 @@ body{
         font-family: Inter;
         font-size: 13px;
         font-weight: 400;
-        line-height: 20px;
-        letter-spacing: 0.2px;
+        line-height: 14px;
+        letter-spacing: 0.8px;
         text-align: left;
     }
     &__email-arrow{
@@ -735,7 +817,7 @@ body{
         height: 13.67px;
     }
     &__bottom{
-        height: 70px;
+        height: 92px;
         border-top: 1px solid rgb(222, 229, 235);
         display: flex;
         flex-direction: row;
@@ -745,19 +827,20 @@ body{
     &__rights{
         color: rgb(31, 31, 31);
         font-family: Inter;
-        font-size: 13px;
+        font-size: 13.7px;
         font-weight: 400;
         line-height: 19.6px;
-        letter-spacing: 0.2px;
+        letter-spacing: 0.3px;
         text-align: left;
     }
     &__social{
+        padding-top: 18px;
         display: flex;
         flex-direction: row;
-        gap: 10px;
+        gap: 20px;
     }
     &__social-logo{
-        width: 21.36px;
-        height: 21.01px;
+        width: 22.16px;
+        height: 28.31px;
     }
 }

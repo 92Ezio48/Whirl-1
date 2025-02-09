@@ -240,7 +240,7 @@ body {
   flex-direction: row;
   background: rgb(247, 249, 250);
   gap: 11px;
-  padding-bottom: 50px;
+  padding-bottom: 41px;
 }
 .techno__title {
   padding-top: 79px;
@@ -339,13 +339,14 @@ body {
   justify-content: space-between;
 }
 .about__title {
-  padding-top: 150px;
+  padding-top: 121px;
+  font-size: 48px;
 }
 .about__cards {
   display: flex;
   flex-direction: row;
   gap: 32px;
-  padding-top: 168px;
+  padding-top: 115px;
 }
 .about__card {
   height: 218px;
@@ -353,14 +354,18 @@ body {
   flex-direction: column;
   max-width: 222.66px;
   gap: 15px;
+  margin-top: 12px;
 }
 .about__card_1 {
   margin-top: 68px;
 }
+.about__card_3 {
+  max-width: 221.66px;
+}
 .about__card-title {
   color: rgb(31, 31, 31);
   font-family: Fraunces;
-  font-size: 25px;
+  font-size: 31px;
   font-weight: 400;
   line-height: 31.25px;
   letter-spacing: 0.2px;
@@ -369,15 +374,18 @@ body {
 .about__card-descr {
   color: rgb(31, 31, 31);
   font-family: Inter;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.2px;
   text-align: left;
 }
+.about__card-descr_1 {
+  font-size: 17px;
+}
 .about__card-logo {
-  height: 55px;
-  width: 55px;
+  height: 43px;
+  width: 52px;
 }
 
 .Set {
@@ -387,37 +395,46 @@ body {
   flex-direction: row;
   text-align: center;
   justify-content: center;
-  align-items: center;
-  justify-content: space-between;
+  gap: 189px;
+}
+.Set__center {
+  padding-left: calc(50% - 501px);
+  padding-right: calc(50% - 627px);
 }
 .Set__main-img {
+  margin-top: 80px;
   width: 382px;
   height: 374px;
 }
 .Set__content {
-  max-width: 501px;
+  margin-top: -13px;
+  width: 100%;
+  max-width: 597px;
   display: flex;
   flex-direction: column;
 }
 .Set__title {
   color: rgb(255, 255, 255);
   font-family: Fraunces;
-  font-size: 42px;
+  font-size: 44px;
   font-weight: 400;
   line-height: 50.4px;
-  letter-spacing: 0.2px;
+  letter-spacing: 2.7px;
   text-align: left;
-  padding-bottom: 21px;
+  padding-bottom: 23px;
+}
+.Set__title_1 {
+  padding-top: 92px;
 }
 .Set__descr {
   color: rgb(255, 255, 255);
   font-family: Inter;
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 400;
   line-height: 27px;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.3px;
   text-align: left;
-  padding-bottom: 17px;
+  padding-bottom: 24px;
 }
 .Set__check {
   width: 17px;
@@ -426,11 +443,20 @@ body {
 .Set__list-name {
   color: rgb(255, 255, 255);
   font-family: Inter;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 400;
   line-height: 21.6px;
   letter-spacing: 0.2px;
   text-align: left;
+}
+.Set__list-name_2 {
+  letter-spacing: 0.6px;
+}
+.Set__lists {
+  margin-top: -5px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
 }
 .Set__list {
   display: flex;
@@ -440,9 +466,13 @@ body {
   align-items: center;
 }
 .Set__button {
-  padding-top: 27px;
+  padding-left: 17px;
+  padding-top: 24px;
 }
 .Set__demo-button {
+  font-size: 16px;
+  line-height: 29px;
+  letter-spacing: 1.1px;
   color: rgb(255, 255, 255);
   border: 1px solid rgb(0, 112, 160);
 }
@@ -456,8 +486,9 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.8px;
   text-align: left;
+  padding-top: 20px;
 }
 .tasks__cards {
   padding-top: 60px;
@@ -466,24 +497,47 @@ body {
   justify-content: space-between;
 }
 .tasks__title {
-  padding-top: 100px;
+  font-size: 48px;
+  line-height: 51.4px;
+  letter-spacing: 1.3px;
+  padding-top: 119px;
 }
-.tasks__descr {
-  padding-top: 20px;
+.tasks__card {
+  max-width: 234.66px;
 }
+.tasks__card-descr {
+  line-height: 22px;
+  letter-spacing: 0.7px;
+}
+.tasks__card-descr_1 {
+  line-height: 23px;
+  letter-spacing: 0.2px;
+}
+.tasks__card-descr_2 {
+  line-height: 23px;
+  letter-spacing: -0.3px;
+}
+
 .blog {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 51px;
   height: 747px;
   background: rgb(247, 249, 250);
 }
+.blog__title {
+  padding-top: 0px;
+  letter-spacing: 0.8px;
+}
 .blog__top {
   padding-top: 79px;
+  gap: 476px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+}
+.blog__Posts {
+  padding-top: 16px;
+  letter-spacing: 0.6px;
 }
 .blog__cards {
   display: flex;
@@ -506,7 +560,10 @@ body {
   padding: 24px;
   display: flex;
   flex-direction: column;
-  gap: 7px;
+  gap: 12px;
+}
+.blog__card-bottom_3 {
+  gap: 11px;
 }
 .blog__category {
   color: rgb(44, 144, 201);
@@ -526,14 +583,26 @@ body {
   justify-content: center;
   align-items: center;
 }
+.blog__category_2 {
+  width: 111px;
+  height: 23px;
+}
+.blog__category_3 {
+  width: 61px;
+  height: 24px;
+}
 .blog__card-title {
   color: rgb(31, 31, 31);
   font-family: Fraunces;
   font-size: 25px;
   font-weight: 400;
   line-height: 31.25px;
-  letter-spacing: 0.2px;
+  letter-spacing: 2.5px;
   text-align: left;
+}
+.blog__card-title_3 {
+  font-size: 26px;
+  letter-spacing: 1.6px;
 }
 .blog__card-descr {
   color: rgb(31, 31, 31);
@@ -541,7 +610,7 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 19.6px;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.6px;
   text-align: left;
 }
 .blog__card-date {
@@ -550,45 +619,54 @@ body {
   font-size: 12px;
   font-weight: 400;
   line-height: 19.6px;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.6px;
   text-align: left;
-  margin-top: 20px;
 }
 
 .start {
   height: 530px;
 }
+.start__center {
+  padding-left: calc(50% - 560px);
+  padding-right: calc(50% - 572px);
+}
 .start__field {
-  margin-top: 90px;
-  height: 370px;
+  margin-top: 79px;
+  height: 372px;
   box-sizing: border-box;
   border: 1px solid white;
   background: rgb(230, 247, 255);
 }
 .start__content {
+  margin-top: -15px;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 50px;
+  padding-left: 57px;
+}
+.start__title {
+  letter-spacing: 1.1px;
+  font-size: 48.6px;
 }
 .start__descr {
   color: rgb(31, 31, 31);
   font-family: Inter;
-  font-size: 18px;
+  font-size: 19.1px;
   font-weight: 400;
   line-height: 27px;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.3px;
   text-align: left;
 }
 .start__checks {
+  padding-left: 3px;
   display: flex;
   flex-direction: row;
-  gap: 25px;
+  gap: 37px;
 }
 .start__check-object {
   display: flex;
   flex-direction: row;
-  gap: 4px;
+  gap: 5px;
   align-items: center;
 }
 .start__check-sign {
@@ -601,22 +679,36 @@ body {
   font-size: 13px;
   font-weight: 400;
   line-height: 21px;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.6px;
   text-align: left;
 }
+.start__button {
+  padding-top: 14px;
+}
+.start__demo-button {
+  width: 176px;
+  height: 44px;
+}
 
+.footer {
+  margin-top: -32px;
+}
+.footer__center {
+  padding-right: calc(50% - 571px);
+}
 .footer__top {
-  height: 328px;
+  height: 280px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: space-between;
+  gap: 316px;
 }
 .footer__top-left {
   display: flex;
   flex-direction: column;
 }
 .footer__logo {
+  width: 134px;
   padding-bottom: 20px;
 }
 .footer__author {
@@ -640,12 +732,13 @@ body {
 .footer__top-right {
   display: flex;
   flex-direction: row;
-  gap: 189px;
+  gap: 102px;
 }
 .footer__links-list {
   display: flex;
   flex-direction: column;
-  gap: 7px;
+  gap: 15px;
+  width: 129px;
 }
 .footer__list-name {
   color: rgb(31, 31, 31);
@@ -661,15 +754,15 @@ body {
   font-family: Inter;
   font-size: 13px;
   font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0.2px;
+  line-height: 16px;
+  letter-spacing: 0.8px;
   text-align: left;
 }
 .footer__sign-up {
   max-width: 217px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 17px;
 }
 .footer__sign-descr {
   color: rgb(31, 31, 31);
@@ -677,7 +770,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.8px;
   text-align: left;
 }
 .footer__email-form {
@@ -692,7 +785,7 @@ body {
   letter-spacing: 0%;
   text-align: left;
   width: 216px;
-  height: 44px;
+  height: 39px;
   background-color: transparent;
   padding-left: 15px;
 }
@@ -701,8 +794,8 @@ body {
   font-family: Inter;
   font-size: 13px;
   font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0.2px;
+  line-height: 14px;
+  letter-spacing: 0.8px;
   text-align: left;
 }
 .footer__email-input::placeholder {
@@ -710,8 +803,8 @@ body {
   font-family: Inter;
   font-size: 13px;
   font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0.2px;
+  line-height: 14px;
+  letter-spacing: 0.8px;
   text-align: left;
 }
 .footer__email-arrow {
@@ -719,7 +812,7 @@ body {
   height: 13.67px;
 }
 .footer__bottom {
-  height: 70px;
+  height: 92px;
   border-top: 1px solid rgb(222, 229, 235);
   display: flex;
   flex-direction: row;
@@ -729,18 +822,19 @@ body {
 .footer__rights {
   color: rgb(31, 31, 31);
   font-family: Inter;
-  font-size: 13px;
+  font-size: 13.7px;
   font-weight: 400;
   line-height: 19.6px;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.3px;
   text-align: left;
 }
 .footer__social {
+  padding-top: 18px;
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 20px;
 }
 .footer__social-logo {
-  width: 21.36px;
-  height: 21.01px;
+  width: 22.16px;
+  height: 28.31px;
 }/*# sourceMappingURL=Whirl.css.map */
