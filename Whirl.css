@@ -279,7 +279,9 @@ body {
   border-top: 1px solid rgb(194, 205, 216);
   display: flex;
   flex-direction: column;
-  height: 64px;
+}
+.techno__list-title:active .techno__list-descr {
+  height: 70px;
 }
 .techno__list-main {
   display: flex;
@@ -301,13 +303,13 @@ body {
   line-height: 15.2px;
   letter-spacing: 3.2px;
   text-align: left;
-  margin-left: -190px;
+  margin-left: -147px;
 }
 .techno__list-name_1 {
   margin-left: -95px;
 }
 .techno__list-name_4 {
-  margin-left: -179px;
+  margin-left: -136px;
 }
 .techno__list-vector {
   width: 14.57px;
@@ -315,6 +317,8 @@ body {
   padding-left: 50px;
 }
 .techno__list-descr {
+  padding-left: 60px;
+  padding-top: 19px;
   color: rgb(31, 31, 31);
   font-family: Inter;
   font-size: 16px;
@@ -322,7 +326,9 @@ body {
   line-height: 24px;
   letter-spacing: 0.2px;
   text-align: left;
-  display: none;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s;
 }
 .techno__main-img {
   margin-top: 175px;
